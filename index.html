@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>利用規約 | Rizum（リズム）</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #007AFF;
+            --text-primary: #1C1C1E;
+            --text-secondary: #3A3A3C;
+            --text-tertiary: #8E8E93;
+            --background: #FFFFFF;
+            --surface: #F2F2F7;
+            --border: #D1D1D6;
+            --success: #34C759;
+            --warning: #FF9500;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text-primary: #FFFFFF;
+                --text-secondary: #EBEBF5;
+                --text-tertiary: #AEAEB2;
+                --background: #000000;
+                --surface: #1C1C1E;
+                --border: #38383A;
+            }
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background-color: var(--background);
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid var(--border);
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: var(--text-tertiary);
+            margin-bottom: 8px;
+        }
+
+        .last-updated {
+            font-size: 14px;
+            color: var(--text-tertiary);
+            font-weight: 500;
+        }
+
+        section {
+            margin-bottom: 48px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 24px 0 12px;
+            color: var(--text-secondary);
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        ul, ol {
+            margin: 16px 0;
+            padding-left: 28px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .note {
+            background-color: var(--surface);
+            border-left: 4px solid var(--primary-color);
+            padding: 16px;
+            margin: 24px 0;
+            border-radius: 8px;
+        }
+
+        .note p {
+            margin-bottom: 0;
+        }
+
+        .warning {
+            background-color: rgba(255, 149, 0, 0.1);
+            border-left: 4px solid var(--warning);
+            padding: 16px;
+            margin: 24px 0;
+            border-radius: 8px;
+        }
+
+        .warning p {
+            margin-bottom: 0;
+            color: var(--text-secondary);
+        }
+
+        .contact {
+            background-color: var(--surface);
+            padding: 24px;
+            border-radius: 12px;
+            margin-top: 48px;
+        }
+
+        .contact h3 {
+            margin-top: 0;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0 20px;
+            color: var(--text-tertiary);
+            font-size: 14px;
+            border-top: 1px solid var(--border);
+            margin-top: 60px;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 16px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            header {
+                padding: 24px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>利用規約</h1>
+        <p class="subtitle">Rizum（リズム）</p>
+        <p class="last-updated">最終更新日: 2025年1月24日</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>第1条（適用）</h2>
+            <p>本利用規約（以下「本規約」といいます）は、Rizum（リズム）（以下「本アプリ」といいます）の利用条件を定めるものです。本アプリをご利用いただく全てのユーザー（以下「ユーザー」といいます）は、本規約に同意したものとみなされます。</p>
+
+            <div class="note">
+                <p><strong>重要:</strong> 本アプリは医療機器ではありません。医学的な診断、治療を目的とするものではなく、日常生活における習慣形成をサポートするためのツールです。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>第2条（定義）</h2>
+            <p>本規約において使用する用語の定義は、以下のとおりとします。</p>
+            <ol>
+                <li><strong>本サービス:</strong> Rizum（リズム）アプリおよび関連するサービスの総称</li>
+                <li><strong>ユーザー:</strong> 本アプリを利用する全ての個人</li>
+                <li><strong>ユーザーデータ:</strong> ユーザーが本アプリ内で作成、保存する全てのデータ（リマインダー、予定、ライフログ等）</li>
+                <li><strong>デバイス:</strong> 本アプリがインストールされているスマートフォン、タブレット等の端末</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>第3条（利用資格）</h2>
+            <p>本アプリは、以下の条件を満たす方が利用できます。</p>
+            <ul>
+                <li>本規約に同意いただける方</li>
+                <li>対応するデバイスをお持ちの方</li>
+                <li>未成年者の場合、保護者の同意を得ている方</li>
+            </ul>
+
+            <div class="warning">
+                <p><strong>未成年者の利用について:</strong> 18歳未満の方が本アプリを利用される場合は、必ず保護者の方の同意を得た上でご利用ください。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>第4条（アカウント管理）</h2>
+            <p>本アプリは現在、アカウント登録を必要としません。全てのデータはデバイス内にローカル保存されます。</p>
+
+            <h3>4.1 データの保管責任</h3>
+            <p>ユーザーは、以下の責任を負うものとします。</p>
+            <ul>
+                <li>デバイスの適切な管理（紛失、盗難、破損の防止）</li>
+                <li>定期的なデータバックアップの実施（推奨）</li>
+                <li>デバイスのOSアップデート、アプリアップデートの実施</li>
+            </ul>
+
+            <h3>4.2 データの削除</h3>
+            <p>以下の場合、ユーザーデータが削除される可能性があります。</p>
+            <ul>
+                <li>アプリのアンインストール</li>
+                <li>デバイスの初期化</li>
+                <li>アプリデータのクリア</li>
+            </ul>
+            <p>当方は、削除されたデータの復旧について一切の責任を負いません。</p>
+        </section>
+
+        <section>
+            <h2>第5条（禁止事項）</h2>
+            <p>ユーザーは、本アプリの利用にあたり、以下の行為を行ってはなりません。</p>
+            <ol>
+                <li>本アプリの複製、改変、リバースエンジニアリング、逆コンパイル、逆アセンブル</li>
+                <li>本アプリの不正使用、または不正使用を試みる行為</li>
+                <li>第三者の権利（著作権、商標権、プライバシー権等）を侵害する行為</li>
+                <li>法令、公序良俗に反する行為</li>
+                <li>本アプリのセキュリティを脅かす行為</li>
+                <li>本アプリの運営を妨害する行為</li>
+                <li>その他、当方が不適切と判断する行為</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>第6条（サービスの提供）</h2>
+
+            <h3>6.1 サービス内容</h3>
+            <p>本アプリは、以下の機能を提供します。</p>
+            <ul>
+                <li>リマインダー・予定管理機能</li>
+                <li>ポモドーロタイマー機能</li>
+                <li>ライフログ記録機能</li>
+                <li>タイムライン表示機能</li>
+                <li>通知機能</li>
+                <li>その他、アプリが提供する各種機能</li>
+            </ul>
+
+            <h3>6.2 サービスの変更・中断</h3>
+            <p>当方は、以下の場合、ユーザーへの事前通知なく、本アプリの全部または一部の提供を中断または変更できるものとします。</p>
+            <ul>
+                <li>本アプリのメンテナンス、アップデートを行う場合</li>
+                <li>火災、停電、天災等の不可抗力により提供できなくなった場合</li>
+                <li>その他、運営上または技術上の理由により、当方が必要と判断した場合</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>第7条（知的財産権）</h2>
+            <p>本アプリに関する著作権、商標権、その他一切の知的財産権は、当方または正当な権利を有する第三者に帰属します。本規約は、ユーザーに対し、いかなる知的財産権の譲渡または使用許諾を行うものではありません。</p>
+        </section>
+
+        <section>
+            <h2>第8条（免責事項）</h2>
+
+            <h3>8.1 医療行為の否認</h3>
+            <div class="warning">
+                <p><strong>重要な免責事項:</strong> 本アプリは医療機器ではなく、医学的な診断、治療、予防を目的とするものではありません。医療上の判断が必要な場合は、必ず医師にご相談ください。</p>
+            </div>
+
+            <h3>8.2 一般的免責</h3>
+            <p>当方は、以下の事項について一切の責任を負いません。</p>
+            <ul>
+                <li>本アプリの利用によって生じた損害（直接損害、間接損害、逸失利益を含む）</li>
+                <li>本アプリの中断、終了、変更によって生じた損害</li>
+                <li>ユーザーデータの消失、破損によって生じた損害</li>
+                <li>第三者によるデバイスへの不正アクセスによって生じた損害</li>
+                <li>通信環境、デバイスの不具合によって生じた損害</li>
+                <li>本アプリの利用に起因する、ユーザーと第三者との間のトラブル</li>
+            </ul>
+
+            <h3>8.3 保証の否認</h3>
+            <p>当方は、本アプリについて以下の保証を行いません。</p>
+            <ul>
+                <li>本アプリが中断されないこと</li>
+                <li>本アプリにエラーや不具合が生じないこと</li>
+                <li>本アプリの利用によって特定の結果が得られること</li>
+                <li>本アプリがユーザーの特定の目的に適合すること</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>第9条（個人情報の取扱い）</h2>
+            <p>本アプリにおける個人情報の取扱いについては、別途定める<a href="privacy-policy.html">プライバシーポリシー</a>に従うものとします。</p>
+
+            <div class="note">
+                <p><strong>プライバシー保護:</strong> 本アプリは、ユーザーデータを全てデバイス内にローカル保存します。外部サーバーへのデータ送信は一切行いません。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>第10条（本規約の変更）</h2>
+            <p>当方は、必要に応じて本規約を変更することができます。規約を変更する場合は、変更後の規約の施行時期および内容を、アプリ内通知またはウェブサイトへの掲載により周知します。</p>
+            <p>変更後の規約は、施行時期以降にユーザーが本アプリを利用することにより、同意したものとみなされます。</p>
+        </section>
+
+        <section>
+            <h2>第11条（サービスの終了）</h2>
+            <p>当方は、以下の場合、本アプリの提供を終了することができます。</p>
+            <ul>
+                <li>事業上の判断により、本アプリの提供を終了する場合</li>
+                <li>法令の変更により、本アプリの提供が困難となった場合</li>
+                <li>その他、当方が本アプリの提供を継続することが困難と判断した場合</li>
+            </ul>
+            <p>本アプリの提供を終了する場合、当方は、可能な限り事前にユーザーに通知するよう努めます。</p>
+        </section>
+
+        <section>
+            <h2>第12条（準拠法および管轄裁判所）</h2>
+            <p>本規約の準拠法は日本法とし、本規約に起因または関連する一切の紛争については、東京地方裁判所を第一審の専属的合意管轄裁判所とします。</p>
+        </section>
+
+        <section>
+            <h2>第13条（分離可能性）</h2>
+            <p>本規約のいずれかの条項が、法令等により無効または執行不能と判断された場合でも、本規約の他の条項は引き続き有効に存続するものとします。</p>
+        </section>
+
+        <div class="contact">
+            <h3>お問い合わせ</h3>
+            <p>本規約に関するご質問、ご不明な点がございましたら、以下の連絡先までお問い合わせください。</p>
+            <p>
+                <strong>Email:</strong> <a href="mailto:rizum.developer@gmail.com">rizum.developer@gmail.com</a><br>
+                <strong>お問い合わせ受付時間:</strong> 平日 10:00 - 18:00（土日祝日を除く）
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rizum. All rights reserved.</p>
+    </footer>
+</body>
+</html>
